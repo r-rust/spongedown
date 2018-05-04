@@ -15,12 +15,10 @@ matrix:
 
 addons:
   apt:
+    sources:
+      - sourceline: 'ppa:ubuntu-mozilla-security/rust-updates'
     packages:
       - cargo
-      - librsvg2-dev
 
 brew_packages:
   - rust
-  - librsvg
-
-r_packages: rsvg
