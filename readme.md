@@ -9,7 +9,7 @@ This R package wraps the [spongedown](https://crates.io/crates/spongedown) cargo
   
 ## Examples
 
-Spongedown converts markdown file to html with support for svgbob diagrams. To play with spongedown, try the [online demo](http://ivanceras.github.io/svgbob-editor/)!
+Spongedown converts markdown file to html with support for svgbob diagrams. Try the [online demo](http://ivanceras.github.io/svgbob-editor/)!
 
 To convert it in R:
 
@@ -22,7 +22,7 @@ utils::browseURL(html)
 
 ## Installation in R
 
-Please see the [hellorust readme](https://github.com/r-rust/hellorust#installation) for instructions how to compile this on Windows, MacOS or Linux. After that you can just do:
+The [hellorust readme](https://github.com/r-rust/hellorust#installation) has instructions on how to setup rust on Windows, MacOS or Linux. After that you can just do:
 
 ```r
 devtools::install_github("r-rust/spongedown")
